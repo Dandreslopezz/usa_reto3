@@ -343,6 +343,119 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "GetAllReservation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Reservation/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Reservation",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetReservationById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Reservation/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Reservation",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveReservation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"cat1\",\n    \"password\":\"test category\",\n    \"starDate\":\"felipe aua\",\n    \"devolutionDate\":\"2432\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Reservation/save",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Reservation",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateReservation",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idReservation\":1,\n    \"startDate\":\"3545\",\n    \"devolutionDate\":\"2342\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Reservation/update",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Reservation",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteReservation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Client/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
+						"1"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
