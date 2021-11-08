@@ -191,7 +191,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\":1,\n    \"messageText\":\"Me gusta como va.\"\n}",
+					"raw": "{\n    \"idMessage\":1,\n    \"messageText\":\"Me gusta como va.\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -225,6 +225,119 @@
 					"path": [
 						"api",
 						"Message",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllClient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Client/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetClientById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Client/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveClient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"cat1\",\n    \"password\":\"test category\",\n    \"name\":\"felipe aua\",\n    \"age\":\"2432\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Client/save",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClient",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idClient\":1,\n    \"email\":\"Me gusta como va.\",\n    \"password\":\"2342\",\n    \"name\":\"tatis\",\n    \"age\":\"35\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Client/update",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteClient",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Client/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Client",
 						"1"
 					]
 				}
