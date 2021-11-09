@@ -50,7 +50,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"cat1\",\n    \"description\":\"test category\"\n}",
+					"raw": "{\"name\":\"cat1\",\"description\":\"test category\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -163,7 +163,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"messageText\":\"Me gusta.\"\n}",
+					"raw": "{\"messageText\":\"Me gusta.\",\"client\":{\"idClient\":1},\"box\":{\"id\":1}}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -276,7 +276,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"email\":\"cat1\",\n    \"password\":\"test category\",\n    \"name\":\"felipe aua\",\n    \"age\":\"2432\"\n}",
+					"raw": "{\"name\":\"Agustin Parra\",\"email\":\"agustin@gmail.com\",\"password\":\"agustin123\",\"age\":18}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -389,7 +389,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"email\":\"cat1\",\n    \"password\":\"test category\",\n    \"starDate\":\"felipe aua\",\n    \"devolutionDate\":\"2432\"\n}",
+					"raw": "\t{\"startDate\":\"2020-12-20\",\"devolutionDate\":\"2020-12-20\",\"client\":{\"idClient\":1},\"box\":{\"id\":1}}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -502,7 +502,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"Sam\",\n    \"location\":\"sur\",\n    \"capacity\":124,\n    \"description\":\"auoth\"\n}",
+					"raw": "\t{\"location\":\"VIP\",\"capacity\":15,\"category\":{\"id\":1},\"name\":\"Palco vip para 15 personas\",\"description\":\"Palco vip para 15 personas\"}",
 					"options": {
 						"raw": {
 							"language": "json"
