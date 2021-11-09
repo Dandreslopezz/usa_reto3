@@ -456,6 +456,119 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "GetAllBox",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Box/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Box",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBoxById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Box/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Box",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveBox",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Sam\",\n    \"location\":\"sur\",\n    \"capacity\":124,\n    \"description\":\"auoth\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Box/save",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Box",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateBox",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":1,\n    \"name\":\"Luna\",\n    \"location\":\"Este\",\n    \"capacity\":533,\n    \"description\":\"thuo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Box/update",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Box",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteBox",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Box/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Box",
+						"1"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
