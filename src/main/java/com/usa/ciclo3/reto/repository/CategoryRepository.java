@@ -21,11 +21,11 @@ public class CategoryRepository {
         return categoryCrudRepository.findById(id);
     }
 
-    public Category save (Category category) {
+    public Category save(Category category) {
         return categoryCrudRepository.save(category);
     }
 
-    public void delete (Category category) {
+    public void delete(Category category) {
         categoryCrudRepository.delete(category);
     }
 }
