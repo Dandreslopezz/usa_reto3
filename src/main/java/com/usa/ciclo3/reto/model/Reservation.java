@@ -18,7 +18,7 @@ public class Reservation implements Serializable {
     private String status = "created";
 
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "idBox")
     @JsonIgnoreProperties({"reservations"})
     private Box box;
 
